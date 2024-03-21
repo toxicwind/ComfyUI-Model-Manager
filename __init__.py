@@ -3,8 +3,8 @@ import server
 import os
 
 
-model_uri = os.path.join(os.getcwd(), "models")
-extension_uri = os.path.join(os.getcwd(), "custom_nodes/ComfyUI-Model-Manager")
+model_uri = os.path.join(os.getcwd(), "comfyui/models")
+extension_uri = os.path.join(os.getcwd(), "comfyui/custom_nodes/ComfyUI-Model-Manager")
 
 model_type_dir_dict = {
     "checkpoint": "checkpoints",
